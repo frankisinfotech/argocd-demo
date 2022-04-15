@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: app-service
-  namespace: example
+  namespace: microservices
 spec:
   type: LoadBalancer
   ports:
