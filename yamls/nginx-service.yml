@@ -3,7 +3,7 @@ kind: Service
 metadata:
   labels:
     app: nginx
-  name: nginxtest
+  name: nginxsvc
   namespace: default
 spec:
   ports:
